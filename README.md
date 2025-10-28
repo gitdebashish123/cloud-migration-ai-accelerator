@@ -31,3 +31,42 @@ streamlit run src/cloud_ai_accelerator_tool.py
 OPENAI_API_KEY = "sk-proj-Cwb6MvaD4YA****"
 
 ```
+
+## Hadoop Commands
+
+```bash
+
+# Daemons start
+hdfs namenode -format
+start-dfs.sh
+start-yarn.sh
+# Check services
+jps
+
+NameNode
+DataNode
+ResourceManager
+NodeManager
+SecondaryNameNode
+
+
+# Daemons stop
+stop-dfs.sh
+stop-yarn.sh
+
+# Hive Services
+hive --service metastore &
+hive --service hiveserver2 &
+```
+## Hive Sample Data
+~~~~sql
+update employee
+  set salary = salary * 2
+  where salary < 100000
+~~~~
+
+## Hadoop UI
+
+ - [NameNode](http://localhost:9870)
+ - [SecondaryNameNode](http://localhost:9868)
+ - [ResourceManager](http://localhost:8088)
