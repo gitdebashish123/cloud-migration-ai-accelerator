@@ -26,7 +26,8 @@ python3 src/prompts/prompt_generator/gen_hive_to_iceberg_conversion_template.py
 streamlit run src/cloud_ai_accelerator_tool.py 
 
 
-# set OpenAI key under .env file present under root dir as and include .env as part of .gitignore
+# set OpenAI key under .env file present under root dir as and 
+# include .env as part of .gitignore
 OPENAI_API_KEY = "sk-proj-Cwb6MvaD4YA****"
 
 ```
