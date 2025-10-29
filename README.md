@@ -34,9 +34,10 @@ OPENAI_API_KEY = "sk-proj-Cwb6MvaD4YA****"
 ## Hadoop Installation Guide
 ```markdown
 📘 [Hadoop Setup Guide](docs/install_hadoop.md)
+```
 ```markdown
 📘 [Hive Setup Guide](docs/install_hive.md)
-
+```
 ## Hadoop Commands
 
 ```bash
