@@ -1,6 +1,6 @@
 ### 🚀 Prerequisites
 
-👉 [Hadoop Installation Guide](hadoop_installation.md)
+👉  [Hadoop Installation Guide](install_hadoop.md)
 
 ---
 
