@@ -1,0 +1,2 @@
+-- Sample Iceberg DDL generated from Hive DDL
+CREATE TABLE transaction_db.customers_txn ( txn_id int, customer_id int, amount decimal(10,2), txn_date string) USING iceberg LOCATION 's3://your-bucket/transaction_db/customers_txn' TBLPROPERTIES ( 'table_type'='ICEBERG', 'format-version'='2', 'write.format.default'='parquet')

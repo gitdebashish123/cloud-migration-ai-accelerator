@@ -11,3 +11,9 @@ python-dotenv
 
 # Streamlit for UI
 streamlit
+
+# Hive metastore client
+hmsclient
+# To connect HS2
+pyhive
+thrift_sasl
