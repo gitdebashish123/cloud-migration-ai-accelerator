@@ -7,7 +7,7 @@
 
 ---
 
-# 🧩 Step 1: Download MySQL
+### 🧩 Step 1: Download MySQL
 ```bash
 brew install MySQL
 brew services start 
@@ -16,7 +16,7 @@ brew services list
 mysql_secure_installation
 ```
 
-# 🧩 Step 2: Set up MySQL for Hive
+### 🧩 Step 2: Set up MySQL for Hive
 ~~~~sql
 DROP DATABASE metastore;
 CREATE DATABASE metastore;
@@ -26,7 +26,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ~~~~
 
-# 🧩 Step 3: Download Hive
+### 🧩 Step 3: Download Hive
 
 ```bash
 mkdir ~/Desktop/hadoop-installations
@@ -39,7 +39,7 @@ wget https://archive.apache.org/dist/hive/hive-4.0.0/apache-hive-4.0.0-bin.tar.g
 tar -xvf apache-hive-4.0.0-bin.tar.gz
 ```
 
-# 🧩 Step 3: Download Hive
+### 🧩 Step 4: Download Hive
 
 ```bash
 mkdir ~/Desktop/hadoop-installations
@@ -52,18 +52,18 @@ wget https://archive.apache.org/dist/hive/hive-4.0.0/apache-hive-4.0.0-bin.tar.g
 tar -xvf apache-hive-4.0.0-bin.tar.gz
 ```
 
-# 🧩 Step 4: Move the packages to hive folder
+### 🧩 Step 5: Move the packages to hive folder
 ```bash
 sudo mkdir -p /usr/local/opt/hive
 sudo mv apache-hive-4.0.0-bin/* /usr/local/opt/hive/
 ```
 
-# 🧩 Step 5: Move the packages to hive folder
+### 🧩 Step 6: Move the packages to hive folder
 ```bash
 sudo mkdir -p /usr/local/opt/hive
 sudo mv apache-hive-4.0.0-bin/* /usr/local/opt/hive/
 ```
-# 🧩 Step 6: ~/.bash_profile env set up
+### 🧩 Step 7: ~/.bash_profile env set up
 ```bash
 vi ~/.bash_profile
 export HIVE_HOME=/usr/local/opt/hive
