@@ -1,9 +1,6 @@
-## 🚀 Prerequisites
+### 🚀 Prerequisites
 
-- Hadoop installed and running (see [README.md](README.md))
-- MySQL or MariaDB installed
-- Java (OpenJDK 17 or later)
-- Environment variables set for Hadoop
+👉 [Hadoop Installation Guide](docs/hadoop_installation.md)
 
 ---
 
