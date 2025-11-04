@@ -76,3 +76,8 @@ update employee
 
 ## Tool UI
 ![image alt](https://github.com/gitdebashish123/cloud-migration-ai-accelerator/blob/5a11b3a20eb804b6b068f3acf24302dec99b908b/images/front-ui.png)
+
+![image alt](https://github.com/gitdebashish123/cloud-migration-ai-accelerator/blob/60096e83dd17a155c96656c9ffc6e27b16b003dd/images/drop-downs.png)
+
+
+![image alt](https://github.com/gitdebashish123/cloud-migration-ai-accelerator/blob/60096e83dd17a155c96656c9ffc6e27b16b003dd/images/iceberg-conversion.png)
