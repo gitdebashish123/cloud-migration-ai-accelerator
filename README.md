@@ -23,7 +23,7 @@ pip install -r requirements.txt
 python3 src/prompts/prompt_generator/gen_hive_to_iceberg_conversion_template.py
 
 # run streamlit app
-streamlit run src/cloud_ai_accelerator_tool.py 
+streamlit run src/cloud_ai_accelerator_tool_v2.py 
 
 
 # set OpenAI key under .env file present under root dir as and 
