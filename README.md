@@ -73,3 +73,6 @@ update employee
  - [NameNode](http://localhost:9870)
  - [SecondaryNameNode](http://localhost:9868)
  - [ResourceManager](http://localhost:8088)
+
+## Tool UI
+![image alt](https://github.com/gitdebashish123/cloud-migration-ai-accelerator/blob/5a11b3a20eb804b6b068f3acf24302dec99b908b/images/front-ui.png)
