@@ -3,3 +3,7 @@
 
 # Secret keys and environment variables
 .venv/
+
+# __pycache__
+# src/hive_thrift/__pycache__/
+# src/validator/__pycache__/

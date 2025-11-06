@@ -12,9 +12,6 @@ class IcebergDDLValidator:
 
     def validate(self):
         ddl = self.ddl.lower()
-        print("Validating DDL:")
-        print(ddl)
-
         # 1. Must start with CREATE TABLE
         if not ddl.startswith("create table"):
             self.errors.append("DDL must start with 'CREATE TABLE'.")

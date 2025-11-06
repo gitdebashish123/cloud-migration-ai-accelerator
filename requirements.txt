@@ -17,3 +17,6 @@ hmsclient
 # To connect HS2
 pyhive
 thrift_sasl
+
+# To connect AWS
+boto3
