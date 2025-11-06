@@ -23,7 +23,7 @@ pip install -r requirements.txt
 python3 src/prompts/prompt_generator/gen_hive_to_iceberg_conversion_template.py
 
 # run streamlit app
-streamlit run src/cloud_ai_accelerator_tool.py 
+streamlit run src/cloud_ai_accelerator_tool_v2.py 
 
 
 # set OpenAI key under .env file present under root dir as and 
@@ -31,6 +31,9 @@ streamlit run src/cloud_ai_accelerator_tool.py
 OPENAI_API_KEY = "sk-proj-Cwb6MvaD4YA****"
 
 ```
+## Hadoop Installation Guide
+📘 [Hadoop Installation Guide](docs/install_hadoop.md)
+📘 [Hive Setup Guide](docs/install_hive.md)
 
 ## Hadoop Commands
 
@@ -70,3 +73,11 @@ update employee
  - [NameNode](http://localhost:9870)
  - [SecondaryNameNode](http://localhost:9868)
  - [ResourceManager](http://localhost:8088)
+
+## Tool UI
+![image alt](https://github.com/gitdebashish123/cloud-migration-ai-accelerator/blob/5a11b3a20eb804b6b068f3acf24302dec99b908b/images/front-ui.png)
+
+![image alt](https://github.com/gitdebashish123/cloud-migration-ai-accelerator/blob/60096e83dd17a155c96656c9ffc6e27b16b003dd/images/drop-downs.png)
+
+
+![image alt](https://github.com/gitdebashish123/cloud-migration-ai-accelerator/blob/60096e83dd17a155c96656c9ffc6e27b16b003dd/images/iceberg-conversion.png)

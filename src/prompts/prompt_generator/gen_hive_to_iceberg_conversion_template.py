@@ -35,7 +35,9 @@ TBLPROPERTIES (
    9.3 The closing parenthesis should be on a new line after the last column definition.
    9.4 Keywords should be in uppercase (e.g., CREATE TABLE, PARTITIONED BY).
    9.5 Use single quotes for string literals in LOCATION and TBLPROPERTIES.
-
+10. Maintain spacing and line breaks for readability.
+11. Ensure the final DDL is syntactically correct for Iceberg.
+12. Ensure spaces between keywords and identifiers are consistent.
 ### Output:
 A valid Iceberg table DDL ready to run in AWS.
 
