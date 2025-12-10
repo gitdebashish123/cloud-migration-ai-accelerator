@@ -161,6 +161,14 @@ if st.button("Convert to Iceberg DDL"):
 
 
 # --- Validate Iceberg DDL button ---
+# --- Validate Iceberg DDL button ---
+if st.button("Validate Iceberg DDL"):
+    if 'result_ddl' in st.session_state:
+        is_valid = validate_iceberg_ddl(st.session_state['result_ddl'])
+        st.session_state['ddl_valid'] = is_valid  # Store validation state
+    else:
+        st.warning("⚠️ No converted DDL to validate. Please convert first.")
+        
 if 'ddl_valid' in st.session_state:
     if st.session_state['ddl_valid']:
         st.success("✅ The generated DDL is a valid Iceberg DDL.")

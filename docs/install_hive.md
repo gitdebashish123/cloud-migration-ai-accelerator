@@ -196,3 +196,23 @@ wget https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-j-8.4.0.tar
 tar -xzf mysql-connector-j-8.4.0.tar.gz
 cp mysql-connector-j-8.4.0/mysql-connector-j-8.4.0.jar $HIVE_HOME/lib/
 ```
+
+### 🧩 Step 11: Start Services
+
+```bash
+hive --service metastore &
+hive --service hiveserver2 &
+
+OR
+
+hive --service metastore --hiveconf hive.root.logger=INFO,FILE &
+hive --service hiveserver2 --hiveconf hive.root.logger=INFO,FILE &
+```
+
+### 🧩 Step 12: Start hive prompt
+
+```bash
+hive 
+OR 
+beeline -u jdbc:hive2://localhost:10000 -n hive
+```
